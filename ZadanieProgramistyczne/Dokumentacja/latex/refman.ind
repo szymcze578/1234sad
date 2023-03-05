@@ -1,0 +1,58 @@
+\begin{theindex}
+
+  \item {C:/Users/szymo/source/repos/7133f719-\/gr42-\/repo/projekt/ZadanieProgramistyczne/ZadanieProgramistyczne/Graf.h}, 
+		\hyperpage{9}
+  \item {C:/Users/szymo/source/repos/7133f719-\/gr42-\/repo/projekt/ZadanieProgramistyczne/ZadanieProgramistyczne/OperacjeNaWierzcholkach.h}, 
+		\hyperpage{9}
+  \item {C:/Users/szymo/source/repos/7133f719-\/gr42-\/repo/projekt/ZadanieProgramistyczne/ZadanieProgramistyczne/OperacjeWyjscia.h}, 
+		\hyperpage{10}
+  \item {czy\_graf\_dwudzielny}
+    \subitem {Graf}, \hyperpage{6}
+  \item {czytaj\_graf}
+    \subitem {Graf}, \hyperpage{6}
+
+  \indexspace
+
+  \item {DFS\_czy\_dwudzielny}
+    \subitem {Graf}, \hyperpage{6}
+
+  \indexspace
+
+  \item {Graf}, \hyperpage{5}
+    \subitem {czy\_graf\_dwudzielny}, \hyperpage{6}
+    \subitem {czytaj\_graf}, \hyperpage{6}
+    \subitem {DFS\_czy\_dwudzielny}, \hyperpage{6}
+    \subitem {liczba\_wierzcholkow}, \hyperpage{7}
+  \item {grupuj\_wierzcholki\_grafu\_dwudzielnego}
+    \subitem {OperacjeNaWierzcholkach.h}, \hyperpage{9}
+
+  \indexspace
+
+  \item {liczba\_wierzcholkow}
+    \subitem {Graf}, \hyperpage{7}
+
+  \indexspace
+
+  \item {OperacjeNaWierzcholkach.h}
+    \subitem {grupuj\_wierzcholki\_grafu\_dwudzielnego}, \hyperpage{9}
+  \item {OperacjeWyjscia.h}
+    \subitem {pokaz\_wyniki}, \hyperpage{10}
+    \subitem {wypisz\_graf}, \hyperpage{10}
+    \subitem {zapisz\_wyniki}, \hyperpage{11}
+
+  \indexspace
+
+  \item {pokaz\_wyniki}
+    \subitem {OperacjeWyjscia.h}, \hyperpage{10}
+
+  \indexspace
+
+  \item {wypisz\_graf}
+    \subitem {OperacjeWyjscia.h}, \hyperpage{10}
+
+  \indexspace
+
+  \item {zapisz\_wyniki}
+    \subitem {OperacjeWyjscia.h}, \hyperpage{11}
+
+\end{theindex}

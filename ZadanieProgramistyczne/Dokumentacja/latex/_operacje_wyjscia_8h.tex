@@ -1,0 +1,80 @@
+\hypertarget{_operacje_wyjscia_8h}{}\doxysection{Dokumentacja pliku C\+:/\+Users/szymo/source/repos/7133f719-\/gr42-\/repo/projekt/\+Zadanie\+Programistyczne/\+Zadanie\+Programistyczne/\+Operacje\+Wyjscia.h}
+\label{_operacje_wyjscia_8h}\index{C:/Users/szymo/source/repos/7133f719-\/gr42-\/repo/projekt/ZadanieProgramistyczne/ZadanieProgramistyczne/OperacjeWyjscia.h@{C:/Users/szymo/source/repos/7133f719-\/gr42-\/repo/projekt/ZadanieProgramistyczne/ZadanieProgramistyczne/OperacjeWyjscia.h}}
+\doxysubsection*{Funkcje}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_operacje_wyjscia_8h_a2ad23bb4dc253e9b20b5c6e8152528b8}{pokaz\+\_\+wyniki}} (bool dwudzielny, std\+::pair$<$ std\+::vector$<$ int $>$, std\+::vector$<$ int $>$$>$ wierzcholki)
+\begin{DoxyCompactList}\small\item\em Funkcja pokazuje wyniki wykonywanych operacji na ekran. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_operacje_wyjscia_8h_add5b1c3de4fb47a7db0bf81daf9ff7ac}{zapisz\+\_\+wyniki}} (std\+::string plik\+\_\+wyjsciowy, bool dwudzielny, std\+::pair$<$ std\+::vector$<$ int $>$, std\+::vector$<$ int $>$$>$ wierzcholki)
+\begin{DoxyCompactList}\small\item\em Funkcja zapisuje wyniki wykonanych operacji do pliku wyjściowego. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{_operacje_wyjscia_8h_a547b1550c6c6bd26f9ac1179761543d4}{wypisz\+\_\+graf}} (std\+::string plik\+\_\+wejsciowy, std\+::string plik\+\_\+wyjsciowy)
+\begin{DoxyCompactList}\small\item\em Funkcja wypisuje zarówno do pliku jak i na ekran graf na którym operujemy. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{_operacje_wyjscia_8h_a1d61da027d197e232f2c7c4f0a2f7cee}\label{_operacje_wyjscia_8h_a1d61da027d197e232f2c7c4f0a2f7cee}} 
+void \mbox{\hyperlink{_operacje_wyjscia_8h_a1d61da027d197e232f2c7c4f0a2f7cee}{Niewlasciwe\+\_\+parametry}} ()
+\begin{DoxyCompactList}\small\item\em Funkcja wyświetlająca odpowiedni komunikat gdy parametry potrzebne do uruchomienia programu, wprowadzone przez użytkownika są niepoprawne. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{_operacje_wyjscia_8h_a3c90803bb0e9d6913d170747c5162684}\label{_operacje_wyjscia_8h_a3c90803bb0e9d6913d170747c5162684}} 
+void \mbox{\hyperlink{_operacje_wyjscia_8h_a3c90803bb0e9d6913d170747c5162684}{nie\+\_\+otwarto\+\_\+pliku}} ()
+\begin{DoxyCompactList}\small\item\em Funkcja wyświetlająca podpowiedź dla użytkownika gdy nie udało się otworzyć pliku wejściowego. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Dokumentacja funkcji}
+\mbox{\Hypertarget{_operacje_wyjscia_8h_a2ad23bb4dc253e9b20b5c6e8152528b8}\label{_operacje_wyjscia_8h_a2ad23bb4dc253e9b20b5c6e8152528b8}} 
+\index{OperacjeWyjscia.h@{OperacjeWyjscia.h}!pokaz\_wyniki@{pokaz\_wyniki}}
+\index{pokaz\_wyniki@{pokaz\_wyniki}!OperacjeWyjscia.h@{OperacjeWyjscia.h}}
+\doxysubsubsection{\texorpdfstring{pokaz\_wyniki()}{pokaz\_wyniki()}}
+{\footnotesize\ttfamily void pokaz\+\_\+wyniki (\begin{DoxyParamCaption}\item[{bool}]{dwudzielny,  }\item[{std\+::pair$<$ std\+::vector$<$ int $>$, std\+::vector$<$ int $>$$>$}]{wierzcholki }\end{DoxyParamCaption})}
+
+
+
+Funkcja pokazuje wyniki wykonywanych operacji na ekran. 
+
+Funkcja wyświetla wyniki sprawdzania dwudzielności grafu. Informuję czy jest on dwudzielny czy też nie i wydaje odpowiedni komunikat. W przypadku gdy graf jest dwudzielny wyświetlane są także wierzchołki należące do poszczególnych grup.
+
+
+\begin{DoxyParams}{Parametry}
+{\em dwudzielny} & zmienna przechowująca wyniki badania dwudzielności, \char`\"{}true\char`\"{} jeśli dwudzielny, \char`\"{}false\char`\"{} jeśli nie. \\
+\hline
+{\em wierzcholki} & para tablic zawierających wierzchołki pierwszej i drugiej grupy. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_operacje_wyjscia_8h_a547b1550c6c6bd26f9ac1179761543d4}\label{_operacje_wyjscia_8h_a547b1550c6c6bd26f9ac1179761543d4}} 
+\index{OperacjeWyjscia.h@{OperacjeWyjscia.h}!wypisz\_graf@{wypisz\_graf}}
+\index{wypisz\_graf@{wypisz\_graf}!OperacjeWyjscia.h@{OperacjeWyjscia.h}}
+\doxysubsubsection{\texorpdfstring{wypisz\_graf()}{wypisz\_graf()}}
+{\footnotesize\ttfamily bool wypisz\+\_\+graf (\begin{DoxyParamCaption}\item[{std\+::string}]{plik\+\_\+wejsciowy,  }\item[{std\+::string}]{plik\+\_\+wyjsciowy }\end{DoxyParamCaption})}
+
+
+
+Funkcja wypisuje zarówno do pliku jak i na ekran graf na którym operujemy. 
+
+Funkcja wyświetla zadany graf oraz zapisuje go pliku wyjściowego. 
+\begin{DoxyParams}{Parametry}
+{\em plik\+\_\+wejsciowy} & Plik wejściowy z którego są pobierane wierzchołki grafu. \\
+\hline
+{\em plik\+\_\+wyjsciowy} & Plik wyjściowy do którego wierzchołki grafu będą zapisywane. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{_operacje_wyjscia_8h_add5b1c3de4fb47a7db0bf81daf9ff7ac}\label{_operacje_wyjscia_8h_add5b1c3de4fb47a7db0bf81daf9ff7ac}} 
+\index{OperacjeWyjscia.h@{OperacjeWyjscia.h}!zapisz\_wyniki@{zapisz\_wyniki}}
+\index{zapisz\_wyniki@{zapisz\_wyniki}!OperacjeWyjscia.h@{OperacjeWyjscia.h}}
+\doxysubsubsection{\texorpdfstring{zapisz\_wyniki()}{zapisz\_wyniki()}}
+{\footnotesize\ttfamily void zapisz\+\_\+wyniki (\begin{DoxyParamCaption}\item[{std\+::string}]{plik\+\_\+wyjsciowy,  }\item[{bool}]{dwudzielny,  }\item[{std\+::pair$<$ std\+::vector$<$ int $>$, std\+::vector$<$ int $>$$>$}]{wierzcholki }\end{DoxyParamCaption})}
+
+
+
+Funkcja zapisuje wyniki wykonanych operacji do pliku wyjściowego. 
+
+Funkcja zapisuje wyniki sprawdzania dwudzielności grafu. Zapisuje informacje czy jest on dwudzielny czy też nie. W przypadku gdy graf jest dwudzielny zapisywane są także wierzchołki należące do poszczególnych grup.
+
+
+\begin{DoxyParams}{Parametry}
+{\em plik\+\_\+wyjsciowy} & plik do którego zostaną zapisane wyniki operacji. \\
+\hline
+{\em dwudzielny} & zmienna przechowująca wyniki badania dwudzielności, \char`\"{}true\char`\"{} jeśli dwudzielny, \char`\"{}false\char`\"{} jeśli nie. \\
+\hline
+{\em wierzcholki} & para tablic zawierających wierzchołki pierwszej i drugiej grupy. \\
+\hline
+\end{DoxyParams}

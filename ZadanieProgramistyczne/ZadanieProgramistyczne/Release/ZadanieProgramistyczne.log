@@ -1,0 +1,16 @@
+﻿  Graf.cpp
+C:\Users\szymo\source\repos\7133f719-gr42-repo\projekt\ZadanieProgramistyczne\ZadanieProgramistyczne\Graf.cpp(28,37): warning C4018: "<=": niezgodność typu ze znakiem/bez znaku
+C:\Users\szymo\source\repos\7133f719-gr42-repo\projekt\ZadanieProgramistyczne\ZadanieProgramistyczne\Graf.cpp(31,37): warning C4018: "<=": niezgodność typu ze znakiem/bez znaku
+  main.cpp
+  OperacjeNaWierzcholkach.cpp
+C:\Users\szymo\source\repos\7133f719-gr42-repo\projekt\ZadanieProgramistyczne\ZadanieProgramistyczne\OperacjeNaWierzcholkach.cpp(11,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  OperacjeWyjscia.cpp
+C:\Users\szymo\source\repos\7133f719-gr42-repo\projekt\ZadanieProgramistyczne\ZadanieProgramistyczne\OperacjeWyjscia.cpp(43,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\szymo\source\repos\7133f719-gr42-repo\projekt\ZadanieProgramistyczne\ZadanieProgramistyczne\OperacjeWyjscia.cpp(49,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\szymo\source\repos\7133f719-gr42-repo\projekt\ZadanieProgramistyczne\ZadanieProgramistyczne\OperacjeWyjscia.cpp(69,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\szymo\source\repos\7133f719-gr42-repo\projekt\ZadanieProgramistyczne\ZadanieProgramistyczne\OperacjeWyjscia.cpp(75,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  Trwa generowanie kodu
+  Previous IPDB not found, fall back to full compilation.
+  All 433 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Zakończono generowanie kodu
+  ZadanieProgramistyczne.vcxproj -> C:\Users\szymo\Source\Repos\7133f719-gr42-repo\projekt\ZadanieProgramistyczne\Release\ZadanieProgramistyczne.exe

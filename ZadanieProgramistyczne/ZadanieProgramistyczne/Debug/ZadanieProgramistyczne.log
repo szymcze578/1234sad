@@ -1,0 +1,4 @@
+﻿  Graf.cpp
+F:\Studia\Repozytoria\repos\7133f719-gr42-repo\projekt\ZadanieProgramistyczne\ZadanieProgramistyczne\Graf.cpp(29,37): warning C4018: "<=": niezgodność typu ze znakiem/bez znaku
+F:\Studia\Repozytoria\repos\7133f719-gr42-repo\projekt\ZadanieProgramistyczne\ZadanieProgramistyczne\Graf.cpp(32,37): warning C4018: "<=": niezgodność typu ze znakiem/bez znaku
+  ZadanieProgramistyczne.vcxproj -> F:\Studia\Repozytoria\repos\7133f719-gr42-repo\projekt\ZadanieProgramistyczne\Debug\ZadanieProgramistyczne.exe

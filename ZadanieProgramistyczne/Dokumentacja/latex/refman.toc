@@ -1,0 +1,25 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\babel@toc {polish}{}
+\contentsline {chapter}{\numberline {1}Indeks klas}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Lista klas}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Indeks plików}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Lista plików}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Dokumentacja klas}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Dokumentacja klasy Graf}{5}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Opis szczegółowy}{5}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Dokumentacja funkcji składowych}{6}{subsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}czy\_graf\_dwudzielny()}{6}{subsubsection.3.1.2.1}%
+\contentsline {subsubsection}{\numberline {3.1.2.2}czytaj\_graf()}{6}{subsubsection.3.1.2.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.3}DFS\_czy\_dwudzielny()}{6}{subsubsection.3.1.2.3}%
+\contentsline {subsubsection}{\numberline {3.1.2.4}liczba\_wierzcholkow()}{7}{subsubsection.3.1.2.4}%
+\contentsline {chapter}{\numberline {4}Dokumentacja plików}{9}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Dokumentacja pliku C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/szymo/source/repos/7133f719-\/gr42-\/repo/projekt/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Zadanie\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Programistyczne/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Zadanie\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Programistyczne/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Graf.h}{9}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Dokumentacja pliku C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/szymo/source/repos/7133f719-\/gr42-\/repo/projekt/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Zadanie\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Programistyczne/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Zadanie\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Programistyczne/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Operacje\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Na\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Wierzcholkach.h}{9}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Dokumentacja funkcji}{9}{subsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.1.1}grupuj\_wierzcholki\_grafu\_dwudzielnego()}{9}{subsubsection.4.2.1.1}%
+\contentsline {section}{\numberline {4.3}Dokumentacja pliku C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/szymo/source/repos/7133f719-\/gr42-\/repo/projekt/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Zadanie\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Programistyczne/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Zadanie\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Programistyczne/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Operacje\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Wyjscia.h}{10}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Dokumentacja funkcji}{10}{subsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.1.1}pokaz\_wyniki()}{10}{subsubsection.4.3.1.1}%
+\contentsline {subsubsection}{\numberline {4.3.1.2}wypisz\_graf()}{11}{subsubsection.4.3.1.2}%
+\contentsline {subsubsection}{\numberline {4.3.1.3}zapisz\_wyniki()}{11}{subsubsection.4.3.1.3}%
+\contentsline {chapter}{Indeks}{13}{section*.7}%

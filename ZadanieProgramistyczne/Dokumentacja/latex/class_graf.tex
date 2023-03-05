@@ -1,0 +1,118 @@
+\hypertarget{class_graf}{}\doxysection{Dokumentacja klasy Graf}
+\label{class_graf}\index{Graf@{Graf}}
+
+
+Klasa reprezentująca obiekt \mbox{\hyperlink{class_graf}{Graf}}.  
+
+
+
+
+{\ttfamily \#include $<$Graf.\+h$>$}
+
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_graf_aaa0a2587b8efaf3e64591a4322eab3c0}{czytaj\+\_\+graf}} (std\+::string plik\+\_\+wejsciowy)
+\begin{DoxyCompactList}\small\item\em Funkcja wczytująca graf z pliku. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_graf_aeede11f90ea301d58104378c6e2a448c}{czy\+\_\+graf\+\_\+dwudzielny}} (std\+::vector$<$ int $>$ \&kolor)
+\begin{DoxyCompactList}\small\item\em Funkcja rozpoczyna sprawdzanie dwudzielności grafu. Funkcja sprawdza czy graf posiada więcej niż jeden wierzchołek. Jeśli nie, operacja sprawdzania dwudzielności jest kończona. Następnie w funkcji tworzona jest tablica typu vector \char`\"{}odwiedzone\char`\"{} (o wielkości takiej jaka jest liczba wierzchołków) reprezentująca informacje czy wierzchołek został już odwiedzony, oraz pierwszemu wierzchołkowi są przypiwyane odpowiednie wartości\+: odwiedzone = true(wierzchołek został odwiedzony; kolor = 1(należy do pierwszej grupy);. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_graf_a998ec12db931184aed5f43f196bebf5f}{liczba\+\_\+wierzcholkow}} ()
+\begin{DoxyCompactList}\small\item\em Funkcja określa liczbę wierzchołków grafu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Metody prywatne}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_graf_a8bc8623e813076aa1c891be4335b6cce}{DFS\+\_\+czy\+\_\+dwudzielny}} (int v, std\+::vector$<$ bool $>$ \&odwiedzone, std\+::vector$<$ int $>$ \&kolor)
+\begin{DoxyCompactList}\small\item\em Funkcja sprawdzająca dwudzielność grafu poprzez przeszukiwanie w głąb. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_graf_a082d3a040beaf0fc2ae35d906ee7ed15}\label{class_graf_a082d3a040beaf0fc2ae35d906ee7ed15}} 
+std\+::vector$<$ std\+::list$<$ int $>$ $>$ \mbox{\hyperlink{class_graf_a082d3a040beaf0fc2ae35d906ee7ed15}{lista\+\_\+sasiedztwa}}
+\begin{DoxyCompactList}\small\item\em Struktura danych zawierająca wierzchołki grafu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+Klasa reprezentująca obiekt \mbox{\hyperlink{class_graf}{Graf}}. 
+
+Klasa zawiera dane z wierzchołkami grafu, oraz metody pozwalające na wykonywanie operacji na tych wierzchołkach. 
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{class_graf_aeede11f90ea301d58104378c6e2a448c}\label{class_graf_aeede11f90ea301d58104378c6e2a448c}} 
+\index{Graf@{Graf}!czy\_graf\_dwudzielny@{czy\_graf\_dwudzielny}}
+\index{czy\_graf\_dwudzielny@{czy\_graf\_dwudzielny}!Graf@{Graf}}
+\doxysubsubsection{\texorpdfstring{czy\_graf\_dwudzielny()}{czy\_graf\_dwudzielny()}}
+{\footnotesize\ttfamily bool Graf\+::czy\+\_\+graf\+\_\+dwudzielny (\begin{DoxyParamCaption}\item[{std\+::vector$<$ int $>$ \&}]{kolor }\end{DoxyParamCaption})}
+
+
+
+Funkcja rozpoczyna sprawdzanie dwudzielności grafu. Funkcja sprawdza czy graf posiada więcej niż jeden wierzchołek. Jeśli nie, operacja sprawdzania dwudzielności jest kończona. Następnie w funkcji tworzona jest tablica typu vector \char`\"{}odwiedzone\char`\"{} (o wielkości takiej jaka jest liczba wierzchołków) reprezentująca informacje czy wierzchołek został już odwiedzony, oraz pierwszemu wierzchołkowi są przypiwyane odpowiednie wartości\+: odwiedzone = true(wierzchołek został odwiedzony; kolor = 1(należy do pierwszej grupy);. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em kolor} & tablica określająca \char`\"{}kolory\char`\"{} (grupy) poszczególnych wierzchołków, 1 jeśli należy do grupy pierwszej oraz 0 jeśli do grupy drugiej. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Wynik operacji przeszukiwania przeszukiwania w głąb grafu, \char`\"{}true\char`\"{} jeśli dwudzielny i \char`\"{}false\char`\"{} w przeciwnym wypadku. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_graf_aaa0a2587b8efaf3e64591a4322eab3c0}\label{class_graf_aaa0a2587b8efaf3e64591a4322eab3c0}} 
+\index{Graf@{Graf}!czytaj\_graf@{czytaj\_graf}}
+\index{czytaj\_graf@{czytaj\_graf}!Graf@{Graf}}
+\doxysubsubsection{\texorpdfstring{czytaj\_graf()}{czytaj\_graf()}}
+{\footnotesize\ttfamily bool Graf\+::czytaj\+\_\+graf (\begin{DoxyParamCaption}\item[{std\+::string}]{plik\+\_\+wejsciowy }\end{DoxyParamCaption})}
+
+
+
+Funkcja wczytująca graf z pliku. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em plik\+\_\+wejsciowy} & plik\+\_\+wejsciowy plik z wierzchołkami grafu. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+\char`\"{}true\char`\"{} jeśli udało się wczytać wierzchołki, w przeciwnym wypadku zwraca \char`\"{}false\char`\"{}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_graf_a8bc8623e813076aa1c891be4335b6cce}\label{class_graf_a8bc8623e813076aa1c891be4335b6cce}} 
+\index{Graf@{Graf}!DFS\_czy\_dwudzielny@{DFS\_czy\_dwudzielny}}
+\index{DFS\_czy\_dwudzielny@{DFS\_czy\_dwudzielny}!Graf@{Graf}}
+\doxysubsubsection{\texorpdfstring{DFS\_czy\_dwudzielny()}{DFS\_czy\_dwudzielny()}}
+{\footnotesize\ttfamily bool Graf\+::\+DFS\+\_\+czy\+\_\+dwudzielny (\begin{DoxyParamCaption}\item[{int}]{v,  }\item[{std\+::vector$<$ bool $>$ \&}]{odwiedzone,  }\item[{std\+::vector$<$ int $>$ \&}]{kolor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Funkcja sprawdzająca dwudzielność grafu poprzez przeszukiwanie w głąb. 
+
+Funkcja rekurencyjnie przechodzi po kolejnych wierzchołkach grafu, przypisuje im odpowiednie wartości oraz określa czy graf jest dwudzielny czy też nie.
+
+
+\begin{DoxyParams}{Parametry}
+{\em v} & wierzchołek startowy od którego zaczyna się przeszukiwanie. \\
+\hline
+{\em odwiedzone} & odwiedzone tablica określająca czy wierzołek został już odwiedzony(true) czy też nie(false). \\
+\hline
+{\em kolor} & kolor tablica określająca \char`\"{}kolory\char`\"{} (grupy) poszczególnych wierzchołków, 1 jeśli należy do grupy pierwszej oraz 0 jeśli do grupy drugiej. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+\char`\"{}true\char`\"{} jeśli graf jest dwudzielny, w przeciwnym wypadku \char`\"{}false\char`\"{}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_graf_a998ec12db931184aed5f43f196bebf5f}\label{class_graf_a998ec12db931184aed5f43f196bebf5f}} 
+\index{Graf@{Graf}!liczba\_wierzcholkow@{liczba\_wierzcholkow}}
+\index{liczba\_wierzcholkow@{liczba\_wierzcholkow}!Graf@{Graf}}
+\doxysubsubsection{\texorpdfstring{liczba\_wierzcholkow()}{liczba\_wierzcholkow()}}
+{\footnotesize\ttfamily int Graf\+::liczba\+\_\+wierzcholkow (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Funkcja określa liczbę wierzchołków grafu. 
+
+\begin{DoxyReturn}{Zwraca}
+zwraca rozmiar tablicy \char`\"{}lista\+\_\+sąsiedztwa\char`\"{}. 
+\end{DoxyReturn}
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/szymo/source/repos/7133f719-\/gr42-\/repo/projekt/\+Zadanie\+Programistyczne/\+Zadanie\+Programistyczne/\mbox{\hyperlink{_graf_8h}{Graf.\+h}}\item 
+C\+:/\+Users/szymo/source/repos/7133f719-\/gr42-\/repo/projekt/\+Zadanie\+Programistyczne/\+Zadanie\+Programistyczne/Graf.\+cpp\end{DoxyCompactItemize}
